@@ -13,6 +13,27 @@
         android:theme="@style/Theme.BlocoDeGastos"
         tools:targetApi="31">
         <activity
+            android:name=".screens.user.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.user.BalanceDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.user.DetailsBalanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.user.ExpenseBlockFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.user.BalanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.user.ExpenseBlockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.app.SplashActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
